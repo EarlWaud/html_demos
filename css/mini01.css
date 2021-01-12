@@ -1,0 +1,269 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: cadetblue;
+}
+
+nav {
+    border-bottom-width: 2px;
+    border-bottom-color: #ccc;
+    border-bottom-style: solid;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #fff;
+}
+
+form {
+    border: 1px solid blue;
+    background-color: gainsboro;
+    margin: 30px;
+    width: 30%;
+    padding: 10px
+}
+
+label, input, textarea, button {
+    display: block;
+    font-weight: bold;
+}
+
+label {
+    margin-bottom: 6px;
+    margin-top: 3px;
+}
+
+input {
+    width: 98%;
+    margin-bottom: 4px;
+    padding: 5px;
+}
+
+textarea {
+    width: 98%;
+    margin-bottom: 4px;
+    padding: 5px;
+}
+
+button {
+    background-color: goldenrod;
+    padding: 8px;
+    margin: 0 auto;
+}
+
+/* color samples */
+p.blue {
+    color: blue;
+}
+
+p.red {
+    color: #f00;
+}
+
+p.white {
+    color: rgb(255, 255, 255);
+    /*background-color: rgb(0,0,0)*/
+}
+
+/* justify samples */
+p.left {
+    text-align: left;
+    /*border: 1px solid red;*/
+}
+
+p.right {
+    text-align: right;
+    /*border: 1px solid red;*/
+}
+
+p.center {
+    text-align: center;
+    /*border: 1px solid red;*/
+}
+
+p.justify {
+    text-align: justify;
+    border: 1px solid red;
+}
+
+/* Text decoration */
+
+.underline { text-decoration: underline;}
+
+.overline { text-decoration: overline; }
+
+.strike { 
+    text-decoration: line-through;
+    text-decoration-color: blue;
+    text-decoration-style: dotted;
+    color: red;
+}
+
+/* overwrite the .strike class back to it's initial state */
+/*.strike { text-decoration: initial;}*/
+
+/* Text transformation */
+
+#body {
+    padding: 0 0 25px 0;
+}
+
+#page-title {
+    margin: 0 0 25px 0;
+    padding: 0;
+    border-bottom: 1px solid #aaa;
+}
+
+.para {
+    text-transform: lowercase;
+}
+
+.text-test {
+    text-indent: 50px;
+}
+
+.para2 {
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    text-indent: 25px;
+    text-align: justify;
+    line-height: 2;
+}
+
+.serif {
+    font-family: "Times New Roman", Georgia, Serif;
+}
+
+.sans {
+    font-family: roboto, cursive, 'Pacifico', Arial, sans-serif;
+    /*font-style: italic;*/
+    font-size: 30px;
+}
+
+.roboto {
+    font-family: 'roboto', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.w900 {
+    font-weight: 900;
+}
+.w700 {
+    font-weight: 700;
+}
+.w500 {
+    font-weight: 500;
+}
+.w400 {
+    font-weight: 400;
+}
+.w300 {
+    font-weight: 300;
+}
+.w100 {
+    font-weight: 100;
+}
+
+#fv {
+    font-variant: small-caps;
+}
+
+.fa-blue {
+    color: blue;
+    font-size: 30px;
+}
+
+.fa-green{
+    color: green;
+    font-size: 30px;
+}
+
+.link1 {
+    color:green;
+    font-size: 30px;
+    font-family: 'Pacifico';
+}
+
+.link1:hover {
+    color: red;
+    text-decoration: wavy;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.link1:visited {
+    /* color: sandybrown; */
+}
+
+.link1:active {
+    color:teal
+}
+
+.certain-class1, .certain-class2, .certain-class3 {
+    color: red;
+    font-size: 40px;
+}
+
+#body div p span {
+    color: green;
+}
+
+.menuol {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.menuol li {
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin-bottom: 2px;
+    width: 100px;
+    text-align: center;
+}
+
+ol.inside {
+    list-style-position: inside;
+    border: 1px solid red;
+    margin: 5px;
+    width: 100px;
+}
+
+ol.outside {
+    list-style-position: outside;
+    border: 1px solid red;
+    margin: 5px;
+    width: 100px;
+}
+
+ol.custom-list {
+    list-style-image: url('../images/hand_point.png');
+}
+
+.my_tables {
+    border: 5px solid red;
+    border-collapse: collapse;
+}
+
+.my_tables td {
+    border: 2px solid red;
+}
+
+.tables3 {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.tables3 td {
+    border: 1px solid black;
+}
+
+.tables3 td {
+    padding: 5px;
+}
+
+.tables3 tr:hover {
+    /* background-color: gray; */
+}
+
+.tables3 tr:hover td:hover {
+    background-color: blue;
+}

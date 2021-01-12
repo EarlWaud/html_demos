@@ -1,0 +1,36 @@
+html {
+    height: 100%;
+}
+body {
+    margin: 10px 10px 0 10px;
+    padding: 0;
+    background-color: #f5f5f5;
+    height: 100%;
+    background: linear-gradient(to bottom, rgb(189, 251, 251), rgba(12, 5, 117, 0.75));
+    overflow-x: hidden;
+}
+
+nav a {
+    text-decoration: none;
+    color: blue;
+}
+
+#page-title {
+    margin: 0 0 20px 0;
+    padding: 0 20px;
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
+    color: rgb(10, 3, 116);
+    font-weight: 900;
+    text-shadow: 0 0 20px rgb(199, 14, 14);
+}
+
+
+#classroom {
+    /* background-color: hotpink; */
+    border: 3px solid black;
+    padding-bottom: 20px;
+}
+
+/* Above is the standard template
+This is where the samples start */

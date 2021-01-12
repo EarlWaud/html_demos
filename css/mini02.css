@@ -1,0 +1,212 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: cadetblue;
+    font-family: 'Roboto', Arial, sans-serif;
+    padding-top: 48px
+}
+
+nav {
+    border-bottom-width: 2px;
+    border-bottom-color: #ccc;
+    border-bottom-style: solid;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #fff;
+    font-family: 'Shrikhand', cursive;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+nav a {
+    color: #000;
+    text-deoration: none;
+}
+
+#body {
+    padding: 0 10px 20px;
+    /* height: 1000px; */
+}
+
+#page-title {
+    margin: 0 0 25px 0;
+    padding: 0;
+    border-bottom: 1px solid #aaa;
+    font-weight: 300;;
+}
+
+#footer a {
+    color: #8c1515;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+table {
+    border: 2px solid black;
+    margin: 10px;
+    width: 50%;
+    border-collapse: collapse;
+}
+
+table th {
+    background-color: burlywood;
+    border: 1px solid black;
+    width: fit-content;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+tfoot th {
+    background-color: burlywood;
+    border: 1px solid black;
+    width: fit-content;
+}
+
+table td {
+    text-align: center;
+    width: fit-content;
+    border: 1px solid black;
+    padding: 3px;
+}
+
+table th {
+    width: fit-content;
+    border: 1px solid black;
+}
+
+tr:hover td:hover {
+    background-color: cornflowerblue;
+}
+
+.relbox {
+    display: block;
+    border: 4px solid red;
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+
+.absbox {
+    /* display: inline-block; */
+    border: 1px solid blue;
+    background-color: blue;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: calc(50% - 25px);
+    left: calc(50% - 25px);
+    /* text-align: center; */
+    /* vertical-align: middle; */
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
+}
+
+form {
+    border: 1px solid #555;
+    padding: 10px;
+    width: 30% 
+}
+
+label {
+    display: block;
+    width: 100%;
+    margin-botton: 10px;
+}
+
+button {
+    display: block;
+    width: 120px;
+    margin-top: 10px;
+}
+
+input {
+    border: 2px solid #555;
+    padding: 5px;
+}
+
+[type="submit"] {
+    border: 2px solid red;
+}
+
+.fa.fa-question-circle[title~="trust"] {
+    border: 1px solid red;
+}
+
+[href^="https://"] {
+    color: green;
+    display: inline-block;
+    padding: 5px 5px 5px 0;
+    margin-right: 15px;
+}
+
+[href^="http://"] {
+    color: red;
+    display: inline-block;
+    padding: 5px 5px 5px 0;
+    margin-right: 15px;
+}
+
+input[type='checkbox']:checked + div.demo {
+    background-color: blue;
+    color: white;
+}
+
+input {
+    border: 3px solid green;
+}
+input:disabled {
+    border: 3px solid red;
+}
+
+.para:not(.graph) {
+    background-color: blue;
+    color: #fff;
+}
+
+.block {
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: 50px auto;
+    background-color: white;
+    border: 1px solid #ccc;
+    position: relative;
+}
+
+.block:hover::before {
+    /* display: inline-block; */
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
+    content: 'Hi my name is Earl';
+    color: #000;
+    background-color: gainsboro;
+    border: 1px solid #ccc;
+    position: absolute;
+    left: -200px;
+    top: 0;
+    width: 200px;
+    height: 200px;
+}
+
+.block:hover::after {
+    /* display: inline-block; */
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
+    content: 'This uses pseudo Elements';
+    color: #000;
+    background-color: gainsboro;
+    border: 1px solid #ccc;
+    position: absolute;
+    right: -200px;
+    top: 0;
+    width: 200px;
+    height: 200px;
+}

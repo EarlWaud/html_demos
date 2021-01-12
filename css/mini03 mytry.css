@@ -1,0 +1,124 @@
+body {
+    margin: 10;
+    padding: 0;
+    background-color: gainsboro;
+    font-family: 'Roboto', Arial, sans-serif;
+    padding-top: 48px
+}
+
+nav {
+    border-bottom-width: 2px;
+    border-bottom-color: #ccc;
+    border-bottom-style: solid;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #fff;
+    font-family: 'Shrikhand', cursive;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+nav a {
+    color: #000;
+    text-decoration: none;
+}
+
+#body {
+    padding: 0 10px 20px;
+    /* height: 1000px; */
+}
+
+#page-title {
+    margin: 0 0 25px 0;
+    padding: 0;
+    border-bottom: 1px solid #aaa;
+    font-weight: 300;;
+}
+
+#footer a {
+    color: #8c1515;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.nav {
+    background-color: grey;
+    border: 3px solid black;
+}
+
+.nav li {
+    display: inline-block;
+    text-decoration-color: none;
+    width: 15%;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+
+.nav li:hover {
+    font-size: 20px;
+    background-color: greenyellow;
+}
+
+
+#nav-container {
+    display: block;
+}
+
+#nav-title {
+    font-size: 15px;
+}
+
+footer {
+    background-color: grey;
+}
+
+.row {
+    width: 99%;
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+.col1 {
+    display: inline-block;
+    /* border: 1px solid blue; */
+    width: 31%;
+    padding: 5px;
+    text-align: center;
+    font-family: 'Shrikhand', cursive;
+}
+
+.col2 {
+    display: inline-block;
+    /* border: 1px solid blue; */
+    width: 31%;
+    padding: 5px;
+    text-align: center;
+    font-family: 'Shrikhand', cursive;
+}
+
+.col3 {
+    display: inline-block;
+    /* border: 1px solid blue; */
+    width: 31%;
+    padding: 5px;
+    text-align: center;
+    font-family: 'Shrikhand', cursive;
+}
+
+.full-col {
+    display: block;
+    /* border: 1px solid blue; */
+    padding: 5px;
+    text-align: center;
+    font-family: 'Shrikhand', cursive;
+    font-size: 30px;
+}
+
+blockquote {
+    font-weight: 600;
+    font-family: 'Shrikhand', cursive;
+}

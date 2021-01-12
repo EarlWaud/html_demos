@@ -1,0 +1,143 @@
+/* html {
+    height: 100%;
+} */
+body {
+    margin: 10px 10px 0 10px;
+    padding: 0;
+    background-color: #f5f5f5;
+    height: 100%;
+    background: linear-gradient(to bottom, rgb(189, 251, 251), rgba(12, 5, 117, 0.75));
+    overflow-x: hidden;
+}
+
+nav a {
+    text-decoration: none;
+    color: blue;
+}
+
+#page-title {
+    margin: 5px 0 20px 0;
+    padding: 0 20px;
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
+    color: rgb(10, 3, 116);
+    font-weight: 900;
+    text-shadow: 0 0 20px rgb(199, 14, 14);
+}
+
+
+#classroom {
+    /* background-color: hotpink; */
+    border: 3px solid black;
+    padding: 0 10px 20px 10px;
+}
+
+/* Above is the standard template
+This is where the samples start */
+
+.text-area {
+    width: 200px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.clip {
+    text-overflow: clip;    
+}
+
+.ellipsis {
+    text-overflow: ellipsis;
+}
+
+.text-area-wrap {
+    width: 200px;
+    border: 2px solid red;
+    margin-bottom: 20px;
+    word-wrap: break-word;
+}
+
+.text-area3 {
+    width: 200px;
+    border: 2px solid yellow;
+    margin-bottom: 20px;
+    word-break: keep-all;
+    word-break: break-all;
+}
+
+.text-area-text-align {
+    padding: 5px;
+    text-align: justify;
+    text-align-last: center;
+}
+
+@font-face {
+    font-family: 'hachifont';
+    src: url(../fonts/HachiMaruPop-Regular.ttf)
+}
+
+.text-area-custom-fonts {
+    font-family: 'hachifont', cursive;
+}
+
+.text-area-trans1 {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    transition: 250ms all linear;
+    /* transition: 250ms width linear, 
+                250ms height linear; */
+}
+
+.text-area-trans1:hover {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
+    color: white;
+    font-size: 20px;
+}
+
+.text-area-trans-colors {
+    text-decoration: none;    
+    color: #000;
+    font-size: 20px;
+    font-weight: 900;
+    transition-duration: 0.75s;
+    transition-property: color;
+    transition-timing-function: linear;
+}
+
+.text-area-trans-colors:hover {
+    color: #8c1515
+}
+
+.parent {
+    position: relative;
+    height: 50px;
+    background-color: #fff;
+}
+
+.child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height:50px;
+    background-color: #8c1515;
+    transition-duration: 3s;
+    transition-property: left;
+    /* transition-timing-function: linear; */
+    transition-timing-function: ease-in-out;
+}
+
+.parent:hover .child {
+    left: calc(100% - 50px);
+}
+
+.plus-delay {
+    transition-delay: 2s;
+}

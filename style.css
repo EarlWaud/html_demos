@@ -1,0 +1,17 @@
+<style>
+body {
+    background-color: gainsboro;
+}
+h1 {
+    background-color: blue;
+    color: white;
+}
+.font-red {
+    color: red;
+}
+.bg-blue { background-color: blue; }
+.bg-yellow { background-color: yellow;}
+#unique {
+    border: 2px solid black;
+}
+</style>

@@ -1,0 +1,23 @@
+body {
+    background-image: url('../images/repeating_cr.jpg');
+    /*background-repeat: no-repeat;*/
+    /* background-repeat: repeat-x; */
+    background-repeat: repeat;
+
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    /*border-top: 1px solid #f00;
+    border-right: 1px solid #f00;
+    border-left: 1px solid #f00;
+    border-bottom: 1px solid #f00;*/
+    /*border: 1px solid #f00;
+    border-style: dashed;
+    border-width: 5px;*/
+
+    border-bottom-width: 2px;
+    border-bottom-color: #ccc;
+    border-bottom-style: solid;
+}
