@@ -1,18 +1,10 @@
-nav {
-    border-bottom-width: 2px;
-    border-bottom-color: #ccc;
-    border-bottom-style: solid;
-    padding: 10px;
-    margin-bottom: 15px;
-    background-color: #fff;
-}
-
 form {
     border: 1px solid blue;
     background-color: gainsboro;
     margin: 30px;
     width: 30%;
-    padding: 10px
+    padding: 10px;
+    height: 500px;
 }
 
 label, input, textarea, button {
@@ -95,10 +87,6 @@ p.justify {
 /*.strike { text-decoration: initial;}*/
 
 /* Text transformation */
-
-#body {
-    padding: 0 0 25px 0;
-}
 
 #page-title {
     margin: 0 0 25px 0;

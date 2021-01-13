@@ -1,23 +1,13 @@
-#page-title {
-    margin: 0 0 25px 0;
-    padding: 0;
-    border-bottom: 1px solid #aaa;
-    font-weight: 300;
-    background-color: #999;
+a {
+    color: blue;
+    text-decoration: none
 }
-
-blockquote {
-    font-style: italic;
-    background-color: #fff;
-    border: 2px solid #ccc;
-    padding: 10px;
-    font-size: 24px;
-    font-family: 'Shrikhand', cursive;
+input, button {
+    width: 80%;
+    border: 1px solid #555;
+    padding: 5px;
 }
-
-blockquote::after {
-    content: '" - Benjamin Franklin';
-}
-blockquote::before {
-    content: '"';
+.logo {
+    color: blue;
+    font-size: 30px;
 }

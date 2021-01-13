@@ -38,10 +38,16 @@ nav {
 #nav-container {
     border-right: 1px solid #aaa;
     float: left;
-    width: 100px;
+    width: 105px;
     padding: 15px 15px 15px 15px;
-    overflow: auto;
+    overflow: auto;    
 }
+
+.nav-container-long01 {
+    height: 4000px;
+}
+
+
 
 #nav-title {
     font-size: 16px;
@@ -54,7 +60,13 @@ ul.nav {
     list-style-type: none;
 }
 
-ul.nav li {}
+ul.nav li {
+    margin: 1px;
+    border: 1px solid grey;
+    padding: 2px;
+    border-spacing: 1px;
+    text-align: center;
+}
 
 ul.nav li a {
     display: block;
@@ -66,11 +78,13 @@ ul.nav li a {
 
 ul.nav li a:hover {
     background-color: rgb(167, 216, 245);
+    color: white;
 }
 
 #body {
     float: left;
     width: calc(100% - 250px);
+    padding-left: 250px;
     padding: 15px;
     overflow: auto;
 }
