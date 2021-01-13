@@ -1,9 +1,30 @@
+/* html {
+    height: 100%;
+} */
 body {
-    margin: 10;
+    margin: 10px 10px 0 10px;
     padding: 0;
-    background-color: gainsboro;
+    /* background-color: cadetblue;
+    background-color: #f5f5f5; */
+    height: 100%;
+    background: linear-gradient(to bottom, rgb(189, 251, 251), rgba(12, 5, 117, 0.75));
+    overflow-x: hidden;
     font-family: 'Roboto', Arial, sans-serif;
     padding-top: 40px
+}
+
+#nav-container {
+    display: inline-block;
+    width: 90%;
+    text-transform: uppercase;
+}
+
+#nav-title {
+    margin: 0px 10px 0px 10px;
+    font-size: 22px;
+    font-family: 'Shrikhand', cursive;
+    /* display: block; */
+    /* text-align: center; */
 }
 
 nav {
@@ -38,14 +59,7 @@ nav a {
     background-color: #999;
 }
 
-#footer a {
-    color: #8c1515;
-    font-weight: bold;
-    text-decoration: none;
-    font-size: 12px;
-}
-
-.nav {
+.nav-menu {
     background-color: rgb(200, 190, 190);
     border: 3px solid black;
     position: fixed;
@@ -56,7 +70,7 @@ nav a {
     height: 40px;
 }
 
-.nav li {
+.nav-menu li {
     display: inline-block;
     width: 15%;
     border: 1px solid black;
@@ -65,68 +79,11 @@ nav a {
     text-align: center;
 }
 
-.nav li a {
+.nav-menu li a {
     text-decoration: none;
 }
 
-.nav li:hover {
+.nav-menu li:hover {
     /* font-size: 18px; */
     background-color: greenyellow;
 }
-
-#nav-container {
-    display: inline-block;
-    width: 90%;
-    text-transform: uppercase;
-}
-
-#nav-title {
-    margin: 0px 10px 0px 10px;
-    font-size: 22px;
-    font-family: 'Shrikhand', cursive;
-    /* display: block; */
-    /* text-align: center; */
-}
-
-footer {
-    background-color: rgb(200, 190, 190);
-}
-
-.row {
-    width: 99%;
-    font-family: 'Roboto', Arial, sans-serif;
-}
-
-.col1, .col2, .col3 {
-    display: inline-block;
-    /* border: 1px solid blue; */
-    width: 31%;
-    padding: 5px;
-    text-align: center;
-    font-family: 'Shrikhand', cursive;
-}
-
-.full-col {
-    display: block;
-    /* border: 1px solid blue; */
-    padding: 5px;
-    text-align: center;
-    font-family: 'Shrikhand', cursive;
-    font-size: 30px;
-}
-
-blockquote {
-    font-weight: 500;
-    font-family: 'Shrikhand', cursive;
-    background-color: #fff;
-    border: 2px solid grey;
-    font-size: 22px;
-    content: "- Kalob Taulien";
-}
-
-blockquote::after {
-   content: '"- Kalob Taulien';
-}
-blockquote::before {
-    content: '"';
- }
