@@ -43,11 +43,17 @@ nav {
     overflow: auto;    
 }
 
-.nav-container-long01 {
+.nav-container-4000 {
     height: 4000px;
 }
 
+.nav-container-2000 {
+    height: 2000px;
+}
 
+.nav-container-1000 {
+    height: 1000px;
+}
 
 #nav-title {
     font-size: 16px;
@@ -87,6 +93,28 @@ ul.nav li a:hover {
     padding-left: 250px;
     padding: 15px;
     overflow: auto;
+}
+
+nav a {
+    text-decoration: none;
+    color: blue;
+}
+
+#page-title {
+    margin: 5px 0 20px 0;
+    padding: 0 20px;
+    border-bottom: 2px solid grey;
+    color: rgb(10, 3, 116);
+    font-weight: 900;
+    text-shadow: 0 0 20px rgb(199, 14, 14);
+}
+
+
+#classroom {
+    /* background-color: hotpink; */
+    border: 3px solid black;
+    padding: 0 10px 20px 10px;
+    margin-bottom: 30px;
 }
 
 footer {

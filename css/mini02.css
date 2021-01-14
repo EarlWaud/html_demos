@@ -1,29 +1,3 @@
-nav {
-    border-bottom-width: 2px;
-    border-bottom-color: #ccc;
-    border-bottom-style: solid;
-    padding: 10px;
-    margin-bottom: 15px;
-    background-color: #fff;
-    font-family: 'Shrikhand', cursive;
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-}
-
-nav a {
-    color: #000;
-    text-deoration: none;
-}
-
-#page-title {
-    margin: 0 0 25px 0;
-    padding: 0;
-    border-bottom: 1px solid #aaa;
-    font-weight: 300;;
-}
-
 #footer a {
     color: #8c1515;
     font-weight: bold;
@@ -125,7 +99,7 @@ input {
     border: 1px solid red;
 }
 
-[href^="https://"] {
+[href^="https://site"] {
     color: green;
     display: inline-block;
     padding: 5px 5px 5px 0;
